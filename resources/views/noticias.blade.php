@@ -14,6 +14,7 @@
     <p><b>DESCRIPCION:</b>{{$n['descripcion']}}</p>
     <p><b>------------------------</b></p>
     @endforeach
-    </div>
+    <button type="button">Agregar</button>
+</div>
 </body>
 </html>
