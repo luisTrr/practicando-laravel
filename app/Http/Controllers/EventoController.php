@@ -23,4 +23,8 @@ class EventoController extends Controller
 
         $eventos = $eventos->noticias()->save($noticias);
     }
+    public function getEventos(){
+        $noticias = Evento::all()->take(10);
+        return Response() -> json($noticias);
+    }
 }
