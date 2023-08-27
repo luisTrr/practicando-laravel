@@ -18,7 +18,7 @@ class NoticiaSeeder extends Seeder
             DB::table('noticias')->insert([
                 'Titulo' => Str::random(15),
                 'contenido' => Str::random(15),
-                'evento_id' => random_int(1,1)
+                'evento_id' => random_int(1,10)
             ]);
         }
     }
